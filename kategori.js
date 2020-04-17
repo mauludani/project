@@ -12,5 +12,5 @@ let xhr = new XMLHttpRequest();
                 }
             }
         }
-xhr.open('GET', 'kategori.json', true);
+xhr.open('GET', 'https://rawcdn.githack.com/mauludani/project/e26b77d0cd07af37e9a9f823b286383b83ad8850/kategori.json', true);
 xhr.send();
