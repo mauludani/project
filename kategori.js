@@ -6,7 +6,7 @@ let xhr = new XMLHttpRequest();
                     if (aplikasi[i]['namaApps']=='Mobile Legends:Bang Bang') {
                         const isi = document.querySelector('.oldversion');
                         isi.innerHTML +=  `
-                        <li><a href='#'>${aplikasi[i]['namaApps']}</a></li>
+                        <li><a href='#'>${aplikasi[i]['versi']}</a></li>
                         `;   
                     }
                 }
