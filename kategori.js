@@ -6,7 +6,7 @@ let xhr = new XMLHttpRequest();
                     if (aplikasi[i]['namaApps']==namaApps) {
                         const isi = document.querySelector('.oldversion');
                         isi.innerHTML +=  `
-                        <li><a href='#'>${aplikasi[i]['versi']}</a></li>
+                        <li><a href='${aplikasi[i]['url']}'>${aplikasi[i]['namaApps']} ${aplikasi[i]['versi']}</a></li>
                         `;   
                     } else {
                     console.log(namaApps+' gagal dibaca');
