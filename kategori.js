@@ -8,6 +8,8 @@ let xhr = new XMLHttpRequest();
                         isi.innerHTML +=  `
                         <li><a href='#'>${aplikasi[i]['versi']}</a></li>
                         `;   
+                    } else {
+                    console.log(namaApps+' gagal dibaca');
                     }
                 }
             }
