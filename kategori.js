@@ -25,5 +25,5 @@ function GetSortOrder(prop) {
         return 0;  
     }  
 }  
-xhr.open('GET', 'https://raw.githubusercontent.com/mauludani/project/master/kategori.json', true);
+xhr.open('GET', 'https://mauludani.000webhostapp.com/json/json.json', true);
 xhr.send();
